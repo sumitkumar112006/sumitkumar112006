@@ -1,9 +1,10 @@
 <svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <radialGradient id="bgGlow" cx="50%" cy="35%" r="65%">
-      <stop offset="0%" stop-color="#3a0a0a"/>
-      <stop offset="45%" stop-color="#160404"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="75%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#4a0d0d"/>
+      <stop offset="40%" stop-color="#2a0606"/>
+      <stop offset="75%" stop-color="#160404"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
     </radialGradient>
 
     <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -34,6 +35,7 @@
   </defs>
 
   <g clip-path="url(#rounded)">
+    <rect x="0" y="0" width="900" height="520" fill="#160404"/>
     <rect x="0" y="0" width="900" height="520" fill="url(#bgGlow)"/>
 
     <!-- rising embers -->
@@ -79,7 +81,7 @@
     </g>
 
     <!-- name banner -->
-    <text x="450" y="290" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-weight="800" font-size="46" letter-spacing="4" fill="#ff2020" filter="url(#glow)">
+    <text x="450" y="295" dominant-baseline="middle" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-weight="900" font-size="48" letter-spacing="5" fill="#ff2020" filter="url(#glow)">
       SUMIT KUMAR
       <animate attributeName="fill" values="#ff2020;#ff6a3a;#ff2020" dur="2.4s" repeatCount="indefinite"/>
     </text>
