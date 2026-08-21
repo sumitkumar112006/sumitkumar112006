@@ -17,7 +17,7 @@
 
 <!-- SECTION 2: TECHNICAL SKILL CONSTELLATION MATRIX WITH ANIMATED BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d0000&height=50&text=%F0%9F%94%A5%20TECHNICAL%20SKILL%20CONSTELLATION%20MATRIX%20%F0%9F%94%A5&fontSize=22&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=2" width="100%" alt="Skills Header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d0000&height=50&text=TECHNICAL%20SKILL%20CONSTELLATION%20MATRIX&fontSize=22&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=2" width="100%" alt="Skills Header" />
   <br/><br/>
 
   <!-- ANIMATED SKILL CONSTELLATION GRAPH SVG -->
