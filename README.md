@@ -7,47 +7,13 @@
 
 <br/><br/>
 
-<!-- SECTION 1: ABOUT ME WITH LIGHT ANIMATED HEADER BANNER -->
+<!-- SECTION 1: ABOUT ME — ANIMATED SVG BUBBLE CARD -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d0000&height=50&text=%F0%9F%93%9C%20SPELL%20SCROLL%20OF%20THE%20DEMON%20ARCHITECT%20%F0%9F%93%9C&fontSize=22&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=2" width="100%" alt="About Me Header" />
+  <img src="./assets/about_section.svg" width="100%" alt="Spell Scroll of the Demon Architect — About Me" />
 </div>
 
-<br/>
-
-<table align="center" width="95%" style="border-collapse: collapse;">
-  <tr>
-    <td bgcolor="#0d0000" style="border: 2px solid #ff1e1e; border-radius: 12px; padding: 24px; box-shadow: 0 0 20px rgba(255, 30, 30, 0.4);">
-      <div align="center">
-        <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2px" />
-      </div>
-      <br/>
-      <font color="#e0e0e0" size="3">
-        Greetings, traveler of the digital abyssal realm. I am <b><font color="#ff1e1e">Sumit Kumar</font></b>, a Full-Stack Engineer & Code Sorcerer crafting high-performance, resilient microservices and immersive dark-mode web experiences. I forge complex business requirements into elegant, lightning-fast software.
-      </font>
-      <br/><br/>
-      <table width="100%" border="0">
-        <tr>
-          <td width="50%" valign="top">
-            <font color="#e0e0e0">
-              🐱‍👤 <b><font color="#ff1e1e">Current Role:</font></b> Senior Full-Stack Engineer<br/>
-              🔥 <b><font color="#ff1e1e">Main Domain:</font></b> Node.js, React, TypeScript, Cloud Native<br/>
-              📜 <b><font color="#ff1e1e">Current Grimoire:</font></b> Rust, WebAssembly & High-Scale Systems<br/>
-            </font>
-          </td>
-          <td width="50%" valign="top">
-            <font color="#e0e0e0">
-              ⚔️ <b><font color="#ff1e1e">Cursed Fact:</font></b> Code compiles on the first try under a full moon.<br/>
-              🔮 <b><font color="#ff1e1e">Summoning Circle:</font></b> Open for high-impact backend & full-stack roles.<br/>
-              ⚡ <b><font color="#ff1e1e">Power Level:</font></b> Turning caffeine ☕ into 10x throughput.<br/>
-            </font>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-
 <br/><br/>
+
 
 <!-- SECTION 2: TECHNICAL SKILL CONSTELLATION MATRIX WITH ANIMATED BANNER -->
 <div align="center">
