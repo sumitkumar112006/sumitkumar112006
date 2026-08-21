@@ -3,23 +3,6 @@
   <!-- TOP ANIMATED SVG HEADER BANNER -->
   <img src="./assets/header_banner.svg" width="100%" alt="Demon Architect Animated Header Banner" />
 
-  <br/><br/>
-  <a href="https://github.com/sumitkumar112006">
-    <img src="https://images.weserv.nl/?url=https://github.com/sumitkumar112006.png&w=180&h=180&fit=cover&mask=circle&border=6,ff1e1e" width="180" height="180" alt="Sumit Kumar Profile" />
-  </a>
-
-  <br/><br/>
-
-  <!-- CAPSULE RENDER HELLFIRE BANNER WITH MOVING TWINKLING PARTICLES & RED BORDER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d0000&height=200&section=header&text=SUMIT%20KUMAR&fontSize=48&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=3" width="100%" alt="Header Banner" />
-
-  <br/>
-
-  <!-- ANIMATED TYPING TAGLINE -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=24&pause=1000&color=FF1E1E&background=0D000000&center=true&vCenter=true&width=700&height=55&lines=%E2%9A%94%EF%B8%8F+Full-Stack+Developer+%E2%9A%94%EF%B8%8F;Turning+%E2%98%95+into+production+code...;Hellfire+Code+Sorcerer+%F0%9F%94%A5;Architecting+Scalable+Cursed+Systems" alt="Typing Tagline" />
-  </a>
-
 </div>
 
 <br/><br/>
