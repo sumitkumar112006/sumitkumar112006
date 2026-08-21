@@ -1,9 +1,6 @@
 <div align="center">
 
-  <!-- TOP HEADER BANNER IMAGE -->
-  <img src="./assets/demon_header.jpg" width="100%" alt="Hellfire Chibi Demon Cat Header" />
 
-  <br/><br/>
 
   <!-- CIRCULAR PROFILE PICTURE WITH RED BOUNDARY -->
   <a href="https://github.com/sumitkumar112006">
