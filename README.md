@@ -1,14 +1,14 @@
 <div align="center">
 
-  <!-- PROFILE AVATAR WITH GLOWING BORDER -->
+  <!-- CIRCULAR PROFILE PICTURE WITH RED BOUNDARY -->
   <a href="https://github.com/sumitkumar112006">
-    <img src="https://github.com/sumitkumar112006.png" width="150" height="150" style="border-radius: 50%; border: 3px solid #ff1e1e; box-shadow: 0 0 20px #ff1e1e;" alt="Sumit Kumar Profile" />
+    <img src="https://images.weserv.nl/?url=https://github.com/sumitkumar112006.png&w=180&h=180&fit=cover&mask=circle&border=6,ff1e1e" width="180" height="180" alt="Sumit Kumar Profile" />
   </a>
 
   <br/><br/>
 
-  <!-- CAPSULE RENDER TWINKLING HELLFIRE BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d0000&height=200&section=header&text=SUMIT%20KUMAR&fontSize=46&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=2" width="100%" alt="Header Banner" />
+  <!-- CAPSULE RENDER HELLFIRE BANNER WITH MOVING TWINKLING PARTICLES & RED BORDER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d0000&height=220&section=header&text=SUMIT%20KUMAR&fontSize=48&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=3" width="100%" alt="Header Banner" />
 
   <br/>
 
@@ -200,7 +200,7 @@
 <div align="center">
 
   <!-- FOOTER CAPSULE RENDER WAVE -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d0000&height=160&section=footer&stroke=ff1e1e&strokeWidth=2" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d0000&height=160&section=footer&stroke=ff1e1e&strokeWidth=3&animation=twinkling" width="100%" alt="Footer Banner" />
 
   <br/><br/>
 
