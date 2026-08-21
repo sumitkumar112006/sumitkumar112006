@@ -1,0 +1,120 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3a0a0a"/>
+      <stop offset="45%" stop-color="#160404"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2b2b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#8b0000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff2b2b" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="900" height="520" rx="18" ry="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect x="0" y="0" width="900" height="520" fill="url(#bgGlow)"/>
+
+    <!-- rising embers -->
+    <g>
+      <circle cx="120" cy="480" r="2.4" fill="#ff5555">
+        <animate attributeName="cy" values="480;-20" dur="6s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0" dur="6s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="260" cy="500" r="1.8" fill="#ff8080">
+        <animate attributeName="cy" values="500;-20" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="650" cy="490" r="2.2" fill="#ff4040">
+        <animate attributeName="cy" values="490;-20" dur="6.8s" begin="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0" dur="6.8s" begin="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="780" cy="470" r="1.6" fill="#ff9a9a">
+        <animate attributeName="cy" values="470;-20" dur="5.6s" begin="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="5.6s" begin="0.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="420" cy="510" r="2s" fill="#ff5555">
+        <animate attributeName="cy" values="510;-20" dur="8s" begin="3.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.85;0" dur="8s" begin="3.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="550" cy="495" r="1.9" fill="#ff7070">
+        <animate attributeName="cy" values="495;-20" dur="6.2s" begin="1.9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="6.2s" begin="1.9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- avatar pulsing ring -->
+    <g transform="translate(450,150)">
+      <circle r="95" fill="none" stroke="#ff2b2b" stroke-width="3" filter="url(#softGlow)" opacity="0.55">
+        <animate attributeName="r" values="90;104;90" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.25;0.65;0.25" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="80" fill="#0d1117" stroke="#ff2b2b" stroke-width="2.5"/>
+      <clipPath id="avatarClip">
+        <circle r="76"/>
+      </clipPath>
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAB8u0lEQVR4nOz9eZhc13XeC797OENVdXf1PAMNdBemBgEOzZmiIJKSaEm2bMWmxyT2jeTMyY3jxPmu75c4znQTO4/j+Cafk3i2I1kSLYmSqJki2aI4szkAZJMAugE00PM8VtU5e1jfH6eq0QABkgAxdAH79zzFRjdr2KfO2e9Za+2112JwXGsIdHV56795HkEpBs8jDA1F7/VNqmtb/yY4/oyBgawpgLHUZRntmRgA4FwIY81hBOze1cnJmff86q6uEMDpYwaAkYwFBhUAuvTDdVxp2NUegOOiEThwgKEfAPoBHCj9uV+f7wXVdc13gXs5GAMGawmcl94JAMCJe4wxBQ6QsR8BZ3+DASAixRjzzvWejAEXfBkRnU89LBGBMc6J7DTj/HcBjMIYRiBuGTOJpJU/2xrinoAxMFI/lp+dnTjPJ3LgAF//7QBQ+t4sAHthg3dcTZxgXXswAD6QAzDEgJwPIAIQVNWufJEL8SBZAmATtVlXjjMlhOjtf0v+fjkMFVYSvrP++rY/stM/CAARGBcgIlhrfmVtqeb3S08MkBwzgCELQF2GQTuuAk6wKoI+r6trVnieR0op5nkeDZ3HvQuCmh6Z8v8TY9wnsooRC8CZ5YwJBvYAtlKom3TGGBhjyYQ3FsYaGGuTfxsNY5LfYQmwFiCLRCnKP8uPC4Wd9eCJeDIGcA7GGIQQEEJCCAEuOATn4EKAc46S1bcunsn4zTCRHbQgkAUBYIILGG1eWVuZ+Y3zjaSr5EaWv9uRkZEYzurten0b6vLI/jM5y6iZ6uR47u39vjD15j+n1zZp70jC19a/f7VwZ4Lg3i0q4f1w5LdK4WlQ4d13nLw8w87gX3yH527f31wQlh/w+m/n799pvh4g+gL6q/O/fC2sC45/x14207qjW5s//x797f1f9jJ8D05eW15u7X38vvefX53rff3+32L9eD330t/Zp391b1w8P/L8A3DlyW+O9iAAAAAElFTkSuQmCC" x="-76" y="-76" width="152" height="152" clip-path="url(#avatarClip)"/>
+      <circle r="76" fill="none" stroke="#ff4040" stroke-width="1.5" opacity="0.8"/>
+    </g>
+
+    <!-- name banner -->
+    <rect x="70" y="270" width="760" height="110" fill="#1a0505" opacity="0.65"/>
+    <text x="450" y="340" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-weight="bold" font-size="52" fill="#ff2020" filter="url(#glow)">
+      SUMIT KUMAR
+      <animate attributeName="fill" values="#ff2020;#ff6a3a;#ff2020" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- subtitle with sword emojis -->
+    <text x="450" y="405" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-weight="bold" font-size="24" fill="#ff3b3b">
+      Full-Stack Developer
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.6s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- scroll banner -->
+    <g transform="translate(450,455)">
+      <rect x="-260" y="-22" width="520" height="44" fill="#1a0505" stroke="#7a1010" stroke-width="1.5">
+        <animate attributeName="stroke" values="#7a1010;#ff2b2b;#7a1010" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="7" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-weight="bold" font-size="17" fill="#ff5a3a" letter-spacing="1">
+        SPELL SCROLL OF THE DEMON ARCHITECT
+      </text>
+    </g>
+
+    <!-- animated wave divider -->
+    <g opacity="0.5">
+      <path fill="url(#waveGrad)">
+        <animate attributeName="d" dur="9s" repeatCount="indefinite"
+          values="
+          M0,500 C150,480 300,520 450,500 C600,480 750,520 900,500 L900,520 L0,520 Z;
+          M0,505 C150,525 300,485 450,505 C600,525 750,485 900,505 L900,520 L0,520 Z;
+          M0,500 C150,480 300,520 450,500 C600,480 750,520 900,500 L900,520 L0,520 Z"/>
+      </path>
+    </g>
+
+    <!-- outer border glow -->
+    <rect x="4" y="4" width="892" height="512" rx="16" ry="16" fill="none" stroke="#ff2b2b" stroke-width="2" opacity="0.5">
+      <animate attributeName="opacity" values="0.25;0.6;0.25" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

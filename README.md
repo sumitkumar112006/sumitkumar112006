@@ -1,8 +1,9 @@
 <div align="center">
 
+  <!-- TOP ANIMATED SVG HEADER BANNER -->
+  <img src="./assets/header_banner.svg" width="100%" alt="Demon Architect Animated Header Banner" />
 
-
-  <!-- CIRCULAR PROFILE PICTURE WITH RED BOUNDARY -->
+  <br/><br/>
   <a href="https://github.com/sumitkumar112006">
     <img src="https://images.weserv.nl/?url=https://github.com/sumitkumar112006.png&w=180&h=180&fit=cover&mask=circle&border=6,ff1e1e" width="180" height="180" alt="Sumit Kumar Profile" />
   </a>
