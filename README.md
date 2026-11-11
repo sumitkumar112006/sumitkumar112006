@@ -27,26 +27,12 @@
 
 <br/><br/>
 
-<!-- SECTION 3: GITHUB STATS WITH ANIMATED BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d0000&height=50&text=DARK%20REALM%20METRICS&fontSize=22&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=2" width="100%" alt="Dark Realm Metrics" />
-  <br/><br/>
-
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sumitkumar112006&show_icons=true&theme=dark&title_color=ff1e1e&icon_color=ff1e1e&text_color=e0e0e0&bg_color=0d0000&border_color=ff1e1e&cache_seconds=86400" height="170" alt="GitHub Stats" />
-
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sumitkumar112006&layout=compact&theme=dark&title_color=ff1e1e&text_color=e0e0e0&bg_color=0d0000&border_color=ff1e1e&cache_seconds=86400" height="170" alt="Top Languages" />
-  <br/><br/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sumitkumar112006&theme=dark&background=0d0000&ring=ff1e1e&fire=ff1e1e&currStreakLabel=ff1e1e&border=ff1e1e" alt="GitHub Streak" />
-</div>
-
   <!-- STATS & STREAK CARDS -->
-  <a href="https://github.com/sumitkumar112006">
-    <img src="https://github-readme-stats.vercel.app/api?username=sumitkumar112006&show_icons=true&theme=dark&title_color=ff1e1e&icon_color=ff1e1e&text_color=e0e0e0&bg_color=0d0000&border_color=ff1e1e&hide_border=false&count_private=true" height="170" alt="GitHub Stats" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/sumitkumar112006">
+  <div align="center">
+    <a href="https://github.com/sumitkumar112006">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=sumitkumar112006&theme=dark&background=0D0000&border=FF1E1E&stroke=FF1E1E&ring=FF1E1E&fire=FF6A00&currStreakNum=FF1E1E&sideNums=E0E0E0&currStreakLabel=FF1E1E&sideLabels=E0E0E0&dates=888888" height="170" alt="Streak Stats" />
   </a>
+  </div>
 
   <br/><br/>
 
