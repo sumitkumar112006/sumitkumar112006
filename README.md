@@ -29,8 +29,12 @@
 
 <!-- SECTION 3: GITHUB STATS WITH ANIMATED BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d0000&height=50&text=%F0%9F%93%8A%20DARK%20REALM%20METRICS%20%F0%9F%93%8A&fontSize=22&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=2" width="100%" alt="Metrics Header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d0000&height=50&text=DARK%20REALM%20METRICS&fontSize=22&fontColor=ff1e1e&animation=twinkling&stroke=ff1e1e&strokeWidth=2" width="100%" alt="Dark Realm Metrics" />
   <br/><br/>
+
+  <!-- your stats cards go here -->
+
+</div>
 
   <!-- STATS & STREAK CARDS -->
   <a href="https://github.com/sumitkumar112006">
