@@ -49,11 +49,6 @@
   <img src="https://skillicons.dev/icons?i=py,js,html,css,cpp,java,git,github,vscode&theme=dark" alt="Languages and tools" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/sumitkumar112006">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sumitkumar112006&layout=compact&theme=dark&title_color=ff1e1e&text_color=e0e0e0&bg_color=0d0000&border_color=ff1e1e&hide_border=false" width="420" alt="Top Languages" />
-  </a>
-</p>>
 
   <br/><br/>
 
